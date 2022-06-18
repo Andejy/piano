@@ -1,23 +1,20 @@
-const DO4 = new Audio("/sounds/DO4.mp3");
-const REb4 = new Audio("/sounds/REb4.mp3");
-const RE4 = new Audio("/sounds/RE4.mp3");
-const MIb4 = new Audio("/sounds/MIb4.mp3");
-const MI4 = new Audio("/sounds/MI4.mp3");
-const FA4 = new Audio("/sounds/FA4.mp3");
-const SOLb4 = new Audio("/sounds/SOLb4.mp3");
-const SOL4 = new Audio("/sounds/SOL4.mp3");
-const LAb4 = new Audio("/sounds/LAb4.mp3");
-const LA4 = new Audio("/sounds/LA4.mp3");
-const SIb4 = new Audio("/sounds/SIb4.mp3");
-const SI4 = new Audio("/sounds/SI4.mp3");
-const DO5 = new Audio("/sounds/DO5.mp3");
-const REb5 = new Audio("/sounds/REb5.mp3");
-const RE5 = new Audio("/sounds/RE5.mp3");
-const MIb5 = new Audio("/sounds/MIb5.mp3");
-const MI5 = new Audio("/sounds/MI5.mp3");
-
-
-
+const DO4 = new Audio("src/sounds/DO4.mp3");
+const REb4 = new Audio("src/sounds/REb4.mp3");
+const RE4 = new Audio("src/sounds/RE4.mp3");
+const MIb4 = new Audio("src/sounds/MIb4.mp3");
+const MI4 = new Audio("src/sounds/MI4.mp3");
+const FA4 = new Audio("src/sounds/FA4.mp3");
+const SOLb4 = new Audio("src/sounds/SOLb4.mp3");
+const SOL4 = new Audio("src/sounds/SOL4.mp3");
+const LAb4 = new Audio("src/sounds/LAb4.mp3");
+const LA4 = new Audio("src/sounds/LA4.mp3");
+const SIb4 = new Audio("src/sounds/SIb4.mp3");
+const SI4 = new Audio("src/sounds/SI4.mp3");
+const DO5 = new Audio("src/sounds/DO5.mp3");
+const REb5 = new Audio("src/sounds/REb5.mp3");
+const RE5 = new Audio("src/sounds/RE5.mp3");
+const MIb5 = new Audio("src/sounds/MIb5.mp3");
+const MI5 = new Audio("src/sounds/MI5.mp3");
 const reproducirNota = audio => {
     const clone = audio.cloneNode();
     clone.play();
